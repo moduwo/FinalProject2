@@ -105,7 +105,6 @@ class Logic(QMainWindow, Ui_Calculator):
                 self.list1.pop(0)
         if button == self.clear_button:
             self.list1.clear()
-            self.list1.append('0')
         if button == self.delete_button:
             if len(self.list1) == 0:
                 self.screen.setText('0')
